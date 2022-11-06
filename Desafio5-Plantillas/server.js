@@ -17,7 +17,6 @@ app.use('/productos', routerApi)
 // handlebars
 app.engine('handlebars', engine())
 app.set('view engine', 'handlebars')
-// app.set('views', __dirname + '/views');
 
 
 app.set('port', process.env.PORT || 8080);
